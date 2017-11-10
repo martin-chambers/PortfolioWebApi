@@ -5,6 +5,9 @@ using System.Web;
 
 namespace PortfolioWebAPI.Models
 {
+    /// <summary>
+    /// Representation of a transaction
+    /// </summary>
     public class Transaction
     {
         public int TransactionId { get; set; }
