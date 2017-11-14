@@ -26,6 +26,7 @@ namespace PortfolioWebAPI.DataAccess
                 Property(t => t.Type).IsRequired();
             }
         }
+        public PortfolioContext() : base("name=PortfolioContextConnectionString") { }
     }
 
 }

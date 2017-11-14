@@ -14,7 +14,7 @@ namespace PortfolioWebAPI.Controllers
         /// </summary>
         public ActionResult Index()
         {
-            return new RedirectResult("~/swagger/ui/index");
+            return new RedirectResult("~/swagger/ui/index");                        
         }
     }
 }
